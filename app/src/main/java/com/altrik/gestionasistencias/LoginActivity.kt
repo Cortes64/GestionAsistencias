@@ -39,11 +39,4 @@ class LoginActivity : AppCompatActivity() {
 
 
     }
-
-    public fun irMenuPrincipal(correo: String) {
-        val intent = Intent(this, MenuPrincipalActivity::class.java)
-        intent.putExtra("Correo", correo)
-        startActivity(intent)
-        this.finish()
-    }
 }

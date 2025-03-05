@@ -16,6 +16,10 @@
         android:theme="@style/Theme.GestionAsistencias"
         tools:targetApi="31">
         <activity
+            android:name=".SignInActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
